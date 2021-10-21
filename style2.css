@@ -1,0 +1,131 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+}
+
+li{
+    margin-right: 30px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+.top-menu{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #E5E5E5;
+}
+
+.logo>a{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #66C05D;
+}
+
+.logo>a>img{
+    padding-right: 20px;
+}
+
+.menu{
+    border-bottom: 1px solid #EFEFEF;
+}
+.contact>.tell{
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.contact>.btn{
+    font-size: 14px;
+    font-family: 600;
+    padding: 13px 27px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background: #66C05D;
+    color: #EFEFEF;
+}
+
+.menu-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.inmenu{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 40px;
+    color: #000000;
+}
+
+.last-menu{
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.slider{
+    background: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 193px 0;
+    background-position-x: px;
+}
+.slider-head{
+    color: #FFFFFF;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.slider-text{
+    padding: 0;
+    margin: 0;
+    width: 308px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.slider-button{
+    padding-bottom: 47px;
+}
+
+.slider-btn{
+    font-style: 14px;
+    color: #FFFFFF;
+    padding: 10px 43px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
